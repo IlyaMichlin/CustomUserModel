@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     'accounts',
     'pages',
+    'articles',
 ]
 
 MIDDLEWARE = [
@@ -113,7 +114,7 @@ AUTH_USER_MODEL = 'accounts.CustomUser'
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Jerusalem'
 
 USE_I18N = True
 
