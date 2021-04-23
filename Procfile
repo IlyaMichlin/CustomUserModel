@@ -1,0 +1,1 @@
+web: gunicorn CustomUserModel.wsgi --log-file -
